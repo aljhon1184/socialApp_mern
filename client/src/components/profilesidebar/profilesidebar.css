@@ -1,0 +1,59 @@
+.profileSidebar{
+    flex: 3;
+    padding: 1rem;
+    width: 300px;
+}
+
+.profileSidebarWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+}
+.info{
+    margin-top: 10px;
+}
+.Fcontainer{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.userInfo{
+    font-size: 20px;
+}
+
+.ppsidebarImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.userFriends{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userFriend{
+    font-size: 20px;
+    margin-top: 10rem;
+}
+
+
+@media only screen and (min-width: 320px){
+    .profileSidebar{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width : 992px){
+    .profileSidebar{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 300px;
+    }
+}

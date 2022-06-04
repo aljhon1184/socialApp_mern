@@ -1,0 +1,63 @@
+.rightbar{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.rightbarIcon{
+    height: 30px;
+    color: #003366;
+}
+
+.birthday{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.birthdayImg{
+    margin-top: 15px;
+    width: 370px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.OLFriendsIgm{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.onlineFriend{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.onlineFriends{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.olName{
+    margin-left: 10px;
+}
+
+
+
+@media only screen and (min-width: 320px){
+
+    .rightbar{
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 992px){
+    .rightbar{
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+}

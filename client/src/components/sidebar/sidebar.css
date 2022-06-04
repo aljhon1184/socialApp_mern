@@ -1,0 +1,45 @@
+.sidebar{
+    flex: 3;
+    padding: 30px;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.sidebarSpan{
+    font-size: 17px;
+    cursor: pointer;
+}
+.SidebarIcon{
+    margin-right: 15px;
+    color: #003366;
+}
+.Friends{
+    margin: 20px;
+    font-size: 20px;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(212, 209, 209);
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 320px){
+
+    .sidebar{
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 992px){
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        padding: 30px;
+    }
+}

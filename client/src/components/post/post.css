@@ -1,0 +1,10 @@
+.post{
+    flex: 9;
+    background-color: rgb(253, 250, 250);
+    position: relative;
+}
+
+.CircularProgress{
+    position: relative;
+    align-self: center;
+}

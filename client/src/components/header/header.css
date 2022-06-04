@@ -1,0 +1,125 @@
+
+.headerWrapper{
+    position: relative;
+    margin: 50px;
+    padding: 1rem;
+    width: 83%;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shareForm{
+    left: 0;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.imageContainer{
+    position: relative;
+}
+.headerWrapper > .imageContainer > .Imgcontain{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cancelIcon{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #003366;
+    cursor: pointer;
+}
+.headerImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.label{
+    display: flex;
+    align-items: center;
+    width: 650px;
+    position: relative;
+}
+.headerContent{
+    display: flex;
+    width: 100%;
+    top: 0;
+    position: relative;
+}
+.headerInput{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 90%;
+    height: 70px;
+    overflow-y: hidden;
+    outline: none;
+    border: none;
+}
+hr{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.headerIcons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.headerSpan{
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.headerIcon{
+    cursor: pointer;
+    color: #003366;
+}
+
+.headerBtn{
+    position: absolute;
+    right: -10px;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: teal;
+    color: white;
+}
+
+
+
+@media only screen and (min-width: 320px){
+    .headerWrapper{
+        margin: 10px 5px 0;
+        width: 680px;
+        max-width: 700px;
+    }
+}
+
+@media only screen and (min-width : 992px){
+    .headerWrapper{
+        position: relative;
+        margin: 50px;
+        padding: 1rem;
+        width: 83%;
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+        box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}

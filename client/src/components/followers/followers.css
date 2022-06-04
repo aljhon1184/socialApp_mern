@@ -1,0 +1,30 @@
+
+.Followers_container{
+    margin: 10px;
+    border: none;
+    padding: 0.1rem 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.followersname{
+    font-size: 10px;
+    margin-left: 5px;
+    position: absolute;
+    margin-left: 35px;
+    text-transform: capitalize;
+}
+.btnFollow{
+    background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 40%;
+}
+.followersImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}

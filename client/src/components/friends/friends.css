@@ -1,0 +1,51 @@
+.friends{
+    margin-top: 25px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.friendsDetails{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.details{
+    margin-left: 13px;
+}
+.friendssImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.friendsname{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.circleIcon{
+    position: absolute;
+    color: green;
+    background-color: green;
+    border-radius: 50%;
+    left: 35px;
+    padding: 0.3rem;
+    margin-top: 20px;
+    font-size: 0.5px;
+}
+
+.moreHorizz{
+    position: absolute;
+    align-self: center;
+    float: right;
+    right: 0;
+    top: 0;
+}
+.linkto{
+    position: absolute;
+    align-self: center;
+    float: right;
+    right: 0;
+    top: 30px;
+}

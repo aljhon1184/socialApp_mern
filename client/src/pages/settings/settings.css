@@ -1,0 +1,103 @@
+.setting{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    color: teal;
+    cursor: pointer;
+}
+
+.settingsDeleteTitle{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.form_container{
+    padding: 3rem;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.accountDetails{
+    font-size: 25px;
+}
+.inputField{
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+}
+.settingsSubmit{
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    padding: 1rem;
+    border-radius: 10px;
+    align-self: center;
+    background-color: teal;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width : 320px){
+    
+    .setting{
+        width: 735px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .settingsTitle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .form_container{
+        width: 735px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    .inputField{
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width : 992px){
+    .setting{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .settingsTitle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .form_container{
+        padding: 3rem;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .inputField{
+        height: 50px;
+        border-radius: 10px;
+        outline: none;
+    }
+    
+}
