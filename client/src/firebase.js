@@ -1,8 +1,10 @@
 import firebase from 'firebase/app';
 import "firebase/storage"
 
+
+
 const firebaseConfig = {
-    apiKey: "AIzaSyAeesb5eLJKuMD5-MMDAsziC_MVwZaxy1A",
+    apiKey: process.env.REACT_APP_APIKEY,
     authDomain: "social-app-4a5e1.firebaseapp.com",
     projectId: "social-app-4a5e1",
     storageBucket: "social-app-4a5e1.appspot.com",

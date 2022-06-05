@@ -17,6 +17,7 @@ export default function Posts( {posts, noData, username} ) {
     const [commentView, setCommentView] = useState(false);
     const [newComment, setNewComment] = useState("");
     const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+
     //const [click, setClick] = useState(false);
     const noAvatar = "https://bizraise.pro/wp-content/uploads/2014/09/no-avatar-300x300.png"
     const { user } = useContext(AuthContext);
